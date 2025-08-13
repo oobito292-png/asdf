@@ -13,4 +13,5 @@ if st.button("Find Parking"):
         st.info(f"Nearest spot: {result['nearest_spot']}")
         st.markdown(f"[Get Directions]({result['navigation_link']})")
     else:
+
         st.error("Error fetching parking info")
